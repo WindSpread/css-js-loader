@@ -1,7 +1,5 @@
-# loader
+# css-js-loader
 检查css、js是否加载，未加载则按文件数组顺序加载文件，避免重复加载。
->2.0.0版本重构代码，新增支持通过异步方式加载的html文件和html代码块中使用loader同步加载js
-
 示例：
 ```
 $.loader(['加载的css地址', '加载的js地址', '加载的js地址'],function(){
